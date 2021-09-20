@@ -126,3 +126,39 @@ def make_raster360(fn, data, data_type, nodata=None):
 
 
 
+# def Diff(list1, list2): 
+#     return (list(set(list1) - set(list2))) 
+
+# def UpCellIndex(index, fdir):
+#     updex = []
+#     if fdir[index - 1] == 1:      # East
+#         updex.append(index - 1)
+#     if fdir[index - 721] == 2:    # SouthEast
+#         updex.append(index - 721)
+#     if fdir[index - 720] == 4:    # South
+#         updex.append(index - 720)
+#     if fdir[index - 719] == 8:    # SouthWest
+#         updex.append(index - 719)
+#     if fdir[index + 1] == 16:     # West
+#         updex.append(index + 1)
+#     if fdir[index + 721] == 32:   # NorthWest
+#         updex.append(index + 721)
+#     if fdir[index + 720] == 64:   # North
+#         updex.append(index + 720)
+#     if fdir[index + 719] == 128:  # NorthEast
+#         updex.append(index + 719)
+#     return updex
+
+# def CumUpCell(init, fdir):
+#     total = [init]
+#     incr = UpCellIndex(init, fdir.flatten())
+#     total.append(*incr)
+#     while len(incr) != 0:
+        
+
+        
+    
+#     return total
+
+    
+    
